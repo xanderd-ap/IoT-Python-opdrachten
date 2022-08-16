@@ -40,6 +40,7 @@ def drawpos():
 
 
 def text(i):
+    xander.color("white")
     xander.left(90)
     xander.forward(90)
     xander.right(90)
@@ -66,6 +67,7 @@ def text(i):
     xander.right(90)
     xander.forward(13)
     xander.left(90)
+    xander.color("black")
 
 
 def draw():
