@@ -1,4 +1,5 @@
 from datetime import datetime
+from re import A
 from typing import List
 import time
 import turtle
@@ -72,12 +73,14 @@ def text(i):
 
 def draw():
 
-    colours = ("cornflowerblue", "navyblue")
+    colours = ("cornflowerblue", "navyblue", "black")
     i = 0
     drawpos()
     xander.penup()
     while i < 6:
-        if i % 2 == 0:
+        if i == 0:
+            c = 2
+        elif i % 2 == 0:
             c = 1
         else:
             c = 0
