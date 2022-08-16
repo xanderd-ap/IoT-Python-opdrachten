@@ -4,6 +4,7 @@ import time
 import turtle
 import requestxander
 
+test
 
 scrn = turtle.Screen()
 xander = turtle.Turtle()

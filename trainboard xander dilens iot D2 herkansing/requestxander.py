@@ -1,7 +1,10 @@
 import http.client
 import json
-import ssl #had issue with desktop and ssl certification expired
+import ssl  # had issue with desktop and ssl certification expired
+
 ssl._create_default_https_context = ssl._create_unverified_context
+
+test
 
 
 def request():
@@ -15,9 +18,10 @@ def request():
     dataTest1 = json.loads(test2)
     departureList = dataTest1["departures"]["departure"]
 
-    return(departureList)
+    return departureList
 
-if __name__ == "__main__" :
+
+if __name__ == "__main__":
     kaka = request()
 
     print(kaka)
