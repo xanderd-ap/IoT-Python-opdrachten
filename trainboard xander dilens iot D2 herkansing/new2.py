@@ -4,7 +4,6 @@ import time
 import turtle
 import requestxander
 
-test
 
 scrn = turtle.Screen()
 xander = turtle.Turtle()
@@ -71,7 +70,7 @@ def text(i):
 
 def draw():
 
-    colours = ("blue", "yellow")
+    colours = ("cornflowerblue", "navyblue")
     i = 0
     drawpos()
     xander.penup()
