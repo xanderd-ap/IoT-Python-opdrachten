@@ -4,8 +4,6 @@ import ssl  # had issue with desktop and ssl certification expired
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-test
-
 
 def request():
 
@@ -22,6 +20,6 @@ def request():
 
 
 if __name__ == "__main__":
-    kaka = request()
+    var1 = request()
 
-    print(kaka)
+    print(var1)
